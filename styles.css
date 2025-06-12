@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+.video-player {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+}
+
+.player__button, .rewind, .skip {
+    margin: 0 10px;
+}
+
+.progress {
+    width: 100%;
+    background: #ccc;
+    height: 5px;
+    position: relative;
+}
+
+.progress__filled {
+    background: #f00;
+    height: 100%;
+    width: 0;
+}

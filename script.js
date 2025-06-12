@@ -1,4 +1,4 @@
-const video = document.querySelector('video');
+const video = document.querySelector('.video');
 const playButton = document.querySelector('.player__button');
 const progressFilled = document.querySelector('.progress__filled');
 const volumeInput = document.querySelector('.volume');
